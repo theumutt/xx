@@ -42,6 +42,10 @@ ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the d
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Neptunia.lua"))()
 end)
 
+ScriptsTab:NewButton("Penis", "penis.", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/theumutt/horz/main/formyscript.lua"))()
+end)
+
 Settings:NewButton("Fake Korblox", "Makes it look like you have korblox", function()
 	game:GetService("Players").LocalPlayer.Character["Right Leg"]:Destroy()
 end)
