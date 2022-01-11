@@ -36,6 +36,7 @@ end)
 
 -- Script Buttons
 
+
 ScriptsTab:NewSearchBar()
 ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Neptunia.lua"))()
@@ -43,6 +44,10 @@ end)
 
 Settings:NewButton("Fake Korblox", "Makes it look like you have korblox", function()
 	game:GetService("Players").LocalPlayer.Character["Right Leg"]:Destroy()
+end)
+
+ScriptsTab:NewButton("Bypass For Krnl", "Krnl Bypass.", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/theumutt/test/main/lua.lua"))()
 end)
 
 ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
